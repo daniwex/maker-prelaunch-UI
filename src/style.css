@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: inherit;
+    font-family: 'Manrope';
+}
+.check{position: relative;padding-left: 15px;}
+.check img{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: red !important;
+    color: red;
+}

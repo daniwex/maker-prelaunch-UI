@@ -14,9 +14,11 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('../assets/illustration-hero-mobile.png')",
+        footer : "url('../assets/bg-footer-squiggle.svg')",
+        heroSquiggle: "url('../assets/bg-hero-squiggle.svg')"
       },
       height: {
-        '128': '32rem',
+        '128': '29rem',
       }
     },
   },
